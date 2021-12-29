@@ -1,3 +1,11 @@
+# Build instruction 
+
+1. Open the vulnerable-application folder in eclipse as a maven project. 
+2. Toggle the Log4j core and API version on line 45 and 51 in the pom.xml file. 
+3. Select build install to create WAR file.
+4. Create docker image using the WAR file. 
+
+
 # log4j-shell-poc
 A Proof-Of-Concept for the recently found CVE-2021-44228 vulnerability. <br><br>
 Recently there was a new vulnerability in log4j, a java logging library that is very widely used in the likes of elasticsearch, minecraft and numerous others.
